@@ -1,0 +1,15 @@
+:root {
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.wk-theme-provider {
+  min-height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}

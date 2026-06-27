@@ -1,0 +1,42 @@
+.wk-nav {
+  display: flex;
+  gap: 5px;
+}
+
+.wk-nav-vertical {
+  flex-direction: column;
+}
+
+.wk-nav-horizontal {
+  flex-flow: row wrap;
+}
+
+.wk-nav-group {
+  display: grid;
+  gap: 5px;
+}
+
+.wk-nav-group-title {
+  color: var(--wk-muted);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.wk-nav-item {
+  display: block;
+  width: 195px;
+  height: 25px;
+  padding-left: 25px;
+  color: #fff;
+  background: var(--wk-button-bg);
+  font-size: 13px;
+  line-height: 25px;
+  text-decoration: none;
+}
+
+.wk-nav-item:hover,
+.wk-nav-item:focus-visible,
+.wk-nav-item.wk-is-active {
+  background-position: 0 bottom;
+  outline: none;
+}

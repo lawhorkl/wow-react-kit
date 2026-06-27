@@ -1,0 +1,49 @@
+{
+  "name": "wow-react-kit",
+  "version": "0.1.0",
+  "description": "React components adapted from the World of Warcraft fan-site kit templates.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./styles.css": "./dist/styles.css",
+    "./styles/base.css": "./src/lib/styles/base.css",
+    "./styles/themes.css": "./src/lib/styles/themes.css",
+    "./styles/page.css": "./src/lib/styles/page.css",
+    "./styles/nav.css": "./src/lib/styles/nav.css",
+    "./styles/content.css": "./src/lib/styles/content.css",
+    "./styles/controls.css": "./src/lib/styles/controls.css"
+  },
+  "files": [
+    "dist",
+    "src/lib/styles",
+    "public/wow-kit"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.build.json && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0 || ^19.0.0",
+    "react-dom": "^18.2.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "vite-plugin-dts": "^4.4.0"
+  }
+}

@@ -1,0 +1,62 @@
+.wk-theme-classic {
+  --wk-text: #16100a;
+  --wk-muted: #5f4938;
+  --wk-body-bg: url("/wow-kit/bg1.jpg") 50% 0 #151921 repeat-x;
+  --wk-edge-bg: url("/wow-kit/ev_bg.gif") repeat-y;
+  --wk-shell-bg: url("/wow-kit/parchment-light2.jpg");
+  --wk-header-bg: url("/wow-kit/wow_header.jpg") right top no-repeat;
+  --wk-border-bg: url("/wow-kit/border_b_1.gif") repeat-x;
+  --wk-button-bg: url("/wow-kit/button_bg1.gif") no-repeat;
+  --wk-title-bg: url("/wow-kit/title_bg1.gif") repeat-x #70230f;
+  --wk-post-bg: url("/wow-kit/parchment-light3.jpg");
+  --wk-panel-bg: url("/wow-kit/parchment-light3.jpg");
+  --wk-bullet-bg: url("/wow-kit/bullet1.gif") 0 5px no-repeat;
+  --wk-line: #7a0c0c;
+  --wk-link: #7a0c0c;
+  --wk-link-hover: #e51414;
+  --wk-frame: #545454;
+  --wk-surface: rgba(255, 240, 203, 0.82);
+  --wk-focus: #f0b941;
+}
+
+.wk-theme-frost {
+  --wk-text: #d8f2ff;
+  --wk-muted: #9cbfd3;
+  --wk-body-bg: url("/wow-kit/bg2.jpg") 50% 0 #114576 repeat-x;
+  --wk-edge-bg: url("/wow-kit/ev_bg2.gif") repeat-y;
+  --wk-shell-bg: url("/wow-kit/wood-weathered.jpg");
+  --wk-header-bg: url("/wow-kit/wotlk_header.jpg") right top no-repeat;
+  --wk-border-bg: url("/wow-kit/border_b_2.gif") repeat-x;
+  --wk-button-bg: url("/wow-kit/button_bg2.gif") no-repeat;
+  --wk-title-bg: url("/wow-kit/title_bg2.gif") repeat-x #0d2368;
+  --wk-post-bg: url("/wow-kit/metal_dark.jpg");
+  --wk-panel-bg: url("/wow-kit/cloudy_bg.jpg");
+  --wk-bullet-bg: url("/wow-kit/bullet2.gif") 0 5px no-repeat;
+  --wk-line: #013996;
+  --wk-link: #188de8;
+  --wk-link-hover: #33b9f8;
+  --wk-frame: #0a0f51;
+  --wk-surface: rgba(7, 13, 34, 0.82);
+  --wk-focus: #8edfff;
+}
+
+.wk-theme-horde {
+  --wk-text: #f1e6d0;
+  --wk-muted: #d0b99e;
+  --wk-body-bg: url("/wow-kit/bg3.jpg") 50% 0 #fdfff4 repeat-x;
+  --wk-edge-bg: url("/wow-kit/ev_bg.gif") repeat-y;
+  --wk-shell-bg: url("/wow-kit/burlap_backdrop.jpg");
+  --wk-header-bg: url("/wow-kit/wotlk_header_3.jpg") right top no-repeat;
+  --wk-border-bg: url("/wow-kit/border_b_3.gif") repeat-x;
+  --wk-button-bg: url("/wow-kit/button_bg3.gif") no-repeat;
+  --wk-title-bg: url("/wow-kit/title_bg3.gif") repeat-x #602111;
+  --wk-post-bg: url("/wow-kit/burlap_foreground.jpg");
+  --wk-panel-bg: url("/wow-kit/parchment-dark.jpg");
+  --wk-bullet-bg: url("/wow-kit/bullet3.gif") 0 5px no-repeat;
+  --wk-line: #642403;
+  --wk-link: #ffbc1c;
+  --wk-link-hover: #f7a850;
+  --wk-frame: #322323;
+  --wk-surface: rgba(43, 20, 12, 0.78);
+  --wk-focus: #ffbc1c;
+}
