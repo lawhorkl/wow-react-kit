@@ -12,7 +12,12 @@
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
-    "./styles.css": "./dist/styles.css",
+    "./server": {
+      "types": "./dist/server.d.ts",
+      "import": "./dist/server.js",
+      "require": "./dist/server.cjs"
+    },
+    "./styles.css": "./src/lib/styles.css",
     "./styles/base.css": "./src/lib/styles/base.css",
     "./styles/themes.css": "./src/lib/styles/themes.css",
     "./styles/page.css": "./src/lib/styles/page.css",

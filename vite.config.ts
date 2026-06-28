@@ -13,15 +13,17 @@ export default defineConfig({
   ],
   build: {
     lib: {
-      entry: resolve(__dirname, "src/lib/index.ts"),
+      entry: {
+        index: resolve(__dirname, "src/lib/index.ts"),
+        server: resolve(__dirname, "src/lib/server.ts")
+      },
       name: "WowReactKit",
       formats: ["es", "cjs"],
-      fileName: (format) => (format === "es" ? "index.js" : "index.cjs")
+      fileName: (format, entryName) => (format === "es" ? `${entryName}.js` : `${entryName}.cjs`)
     },
     rollupOptions: {
       external: ["react", "react-dom", "react/jsx-runtime"],
       output: {
-        banner: '"use client";',
         assetFileNames: "styles.css",
         globals: {
           react: "React",

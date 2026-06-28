@@ -1,5 +1,5 @@
 import type { HTMLAttributes } from "react";
-import { createAssetStyle, useWowTheme } from "../../theme";
+import { createAssetStyle } from "../../theme";
 import type { WowTheme, WowThemeAssets } from "../../types";
 import { cx } from "../../utils";
 
@@ -9,15 +9,13 @@ export interface WowPageRootProps extends HTMLAttributes<HTMLDivElement> {
 }
 
 export function WowPageRoot({ theme, assets, className, style, ...props }: WowPageRootProps) {
-  const inherited = useWowTheme();
-  const resolvedTheme = theme ?? inherited.theme;
-  const resolvedAssets = assets ?? inherited.assets;
+  const resolvedTheme = theme ?? "frost";
 
   return (
     <div
       {...props}
       className={cx("wk-page", `wk-theme-${resolvedTheme}`, className)}
-      style={{ ...createAssetStyle(resolvedAssets), ...style }}
+      style={{ ...createAssetStyle(assets), ...style }}
     />
   );
 }
